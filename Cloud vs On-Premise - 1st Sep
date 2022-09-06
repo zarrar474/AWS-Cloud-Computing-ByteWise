@@ -1,0 +1,28 @@
+Submission by: Zarrar Malik, 1st Sep 2022
+
+What is Cloud? 
+Short form for cloud computing 
+Cloud computing's purpose is to be convenient and on-demand
+It is used for Networks, Servers, Storage, Applications, Services
+Analogy:  Utility Company provides water on demand (when you open the tap), as much as you want. The company measures how much water you consume therefore, you pay for as much you’ve used. So, Cloud Providers provide computing resources via the internet from the Data centers to the users. The user requires no hardware.
+
+Characteristics: 
+On-demand self-service 
+Shared resource pooling (Consumers have a shared data center)
+Rapid Elasticity (As much scale as you require) 
+Measured Services (Usage is tracked such as storage or hours of CPU usage)
+Broad Network Access (Can be accessed from any device over the internet)
+
+Cloud Deployment Models:
+Public
+Private
+Community
+Hybrid
+
+Public Cloud: (Cloud) 
+For open use by the general public, over the internet, provided by a service provider with a global reach, physically exists on the premises of the cloud provider like AWS.
+
+Private Cloud: (On-Premise) 
+Exclusively for a single organization, servers are located within the premises of the consumer organization.
+
+CCNA (Cisco Certified Network Associate)
