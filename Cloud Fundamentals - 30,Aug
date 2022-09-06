@@ -1,0 +1,46 @@
+Submission By: Zarrar Malik, 30, Aug 2022 
+
+Introduction:
+Cloud computing is basically providing IT services over the internet 
+There isn't a one-time payment plan; you are charged for as much as you use.
+You yourself do not need to buy and maintain servers or data centers instead you outsource it.
+Data centers and servers are used for tasks such as computing power, storage, etc.
+There are three main cloud providers AWS, Azure, and GCP which have their own cloud infrastructure. 
+Each cloud provider has there own unique certification. 
+
+Traditional Architecture:
+Consists of both hardware and software resources
+Includes data center, server, networking computers, and software applications
+This setup is very costly and unreliable
+
+Cloud Computing:
+The basic definition is technology to operate the cloud.
+Virtualized IT infrastructure (A single server can be divided into multiple servers)
+Cloud Lowers IT costs ( no inhouse infrastructure required)
+Cloud computing increases the efficiency of the enterprise ( can also empower certain users for support or development mainly)
+Cloud is not costly, you can purchase capacity/scale as per your requirement hence it is cost-effective
+
+Characteristics:
+On-Demand Self-Service: No administrator is required, users are empowered
+Broad Network Access: Easy to access from anywhere over networks and devices.
+Resource Pooling: Resources like storage can be shared with customers, and more than one client can use the same physical cloud resource.
+Rapid Elasticity: Use as much as you need, can increase or decrease scale depending on your need.
+Measured Service: monitored therefore there's accountability.
+
+Why Cloud:
+Can scale up/down quickly
+Instant bandwidth increase
+Reduced cost; no maintenance, no management required
+Secure
+Reduced failures, due to the provider's integrity
+Quick and easy data recovery
+Easy access from anywhere over the internet
+IaaS: rent hardware, complete control over hardware, most flexible (What is VM and EC2?)
+PaaS: read to use, write and execute high-quality code, helps create applications quickly. (Azure SQL DB)
+SaaS: complete product, fully managed by the provider, hosted online (Gmail,MS office 365)
+
+Cloud Deployment Models:
+Public Cloud: Third Party, Available to anyone on the internet, Scaling is quicker and easy (AWS, Azure and GCP)
+Hybrid Cloud: Combo of both public and private cloud, More in demand (Microsoft Azure Stack)
+Private Cloud: Dedicated to a single organization, physical components stored on site (virtualized resources) (HP Data Centers)
+
