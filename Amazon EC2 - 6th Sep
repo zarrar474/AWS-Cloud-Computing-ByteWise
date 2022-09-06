@@ -1,0 +1,35 @@
+Introduction
+EC2 is a virtual server in the AWS Cloud (Elastic Cloud Compute)
+Makes scaling easier
+EC2 : FLexible, Cost-effective, Quick
+Better than on-premise data centers
+Amazon EC2, already built, secured datacenters, already online ready for use
+You only pay for what you use, Host is shared
+Multitenancy: Sharing underlying hardware between virtual machines (Hypervisor)
+More flexiblilty and control
+You can use your own OS, and our own software can run on EC2
+Verticla Scaling
+Control Networking aspect of EC2
+Comput as a service (CaaS) Model
+
+Types of Instances (EC2):
+Each EC2 instance type is grouped under an instance family, for certain types of tasks 
+1. General purpose: Balanced Resources
+2. Compute optimized: Compute intensive tasks (gaming servers) (HPC)
+3. Memory optimized: Good for  memory intensive tasks
+4. Accelerated Computing: Floating point number calculations, graphics processing etc
+5. Storages Optimized: High perfmance for locally stored data
+
+EC2 Scaling: Optimized and adapts to your needs, Scaling is about only using the resources that you need.                                    
+Coustomers never lose service (Scalability and Elasticity) 
+
+EC2 Auto Scaling: Allows you to add or remove EC2 intances automatically
+
+There are two approaches:
+
+Dynamic scaling: responds to changing demand
+Predictive scaling: schedules the number of instances based on a predicted demand
+Dynamic and Predictive scaling can be combined to scale faster
+Scale Up or Scale Down
+Right amount of power for the process 
+Add instances on demand 
