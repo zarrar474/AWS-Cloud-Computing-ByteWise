@@ -1,0 +1,38 @@
+AWS Regions & Zones
+
+> Hosted in multiple locations world-wide (Regions, Availability Zones, Local Zones, Outposts, Wavelenght Zones)
+> Availiability Zones: Multiple, isolated locations in each region
+> Local Zones: Provide ability to place resources eg compute and storage, in locations closer to user
+> AWS Outposts: Brings AWS services, infrastructure to any data center
+> Wavelenght Zones: Allows to develop and build applications, wavelenght deploys standard AWS compute and storage services
+
+1. Regions: regions are isolated from other regionsfor greater fault tolerance and stability
+> your resources are specified to your region
+> When you launch an instance, you must select an AMI that's in the same Region
+> If the AMI is in another Region, you can copy the AMI to the Region you're using
+
+Available Regions: 
+An AWS account provides multiple Regions so that you can launch Amazon EC2 instances in locations that meet requirements
+
+Regions and endpoints: 
+When you work with an instance using the command line interface, you must specify its Regional endpoint
+> Amazon EC2 console or the command line interface to determine which Regions are available for your account
+
+
+Availibility Zones: 
+Each Region has multiple, isolated locations known as Availability Zones
+> you select a Region and a virtual private cloud (VPC)
+> If you distribute your instances across multiple Availability Zones and one instance fails, you can design your application so that an instance in another Availability Zone can handle requests
+
+AZ IDs: 
+To coordinate Availability Zones across accounts, you must use the AZ ID, which is a unique and consistent identifier for an Availability Zone
+
+
+Local Zones: 
+A Local Zone is an extension of an AWS Region in geographic proximity to your users. Local Zones have their own connections to the internet and support
+
+Wavelength Zones: 
+AWS Wavelength enables developers to build applications that deliver ultra-low latencies to mobile devices and end users
+
+AWS Outposts: 
+AWS Outposts is a fully managed service that extends AWS infrastructure, services, APIs, and tools to customer premises
