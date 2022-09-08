@@ -1,0 +1,30 @@
+Ways to Interact with AWS Services: 
+
+1. AWS Console:
+> Web Based GUI (Console to launch EC2 instances, can view info about IP addresses) 
+> Instance is terminated once finished
+> The console screen will be showing all AWS services
+> Ability to Pin to the menu bar
+> Can see the AWS Region
+> Account Info
+> AWS billing and management console
+
+AWS CLI:
+> allows to manage the enviornment using a terminal
+> not quicker than the GUI
+> Scripting CLI commands
+> All AWS commands start with "aws" (ec2,s2,rds)
+> run a single instance using a specific Amazon Machine Image (AMI), with an instance size of ‘t2.micro’ and using a key pair named ‘MainKey’
+
+AWS SDKs: 
+> Real power in programmability and automation
+> A number of Software Development Kits (Interact through code)
+> To intergrate AWS services into the applications 
+
+CloudFormation: 
+> tool used to define infrastructure as code
+> quickly and in a repeatable manner
+> your infrastructure is defined as code
+> extremely flexible and powerful, allowing you to use many advanced features
+
+Identity and Access Management (IAM)
