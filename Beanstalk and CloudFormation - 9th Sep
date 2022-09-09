@@ -1,0 +1,40 @@
+AWS CloudFormation:
+
+> A service that helps you model and set up resources
+> Less time wasted on managing resources
+> Create a template for AWS resources
+> CloudFormation takes care of provisioning and configuring resources
+
+Infrastructure Management:
+
+> For a Web App
+> Auto Scaling group
+> Elastic Load Balancing load balancer
+> Amazon Relational Database
+> Provison and creation of resources
+> All these tasks can add complexity 
+> Instead,  create a CloudFormation template
+> The template describes all resources 
+> When you use that template to create a CloudFormation stack, CloudFormation provisions the Auto Scaling group, load balancer, and database 
+> After the creation of the stack you're aws resources are up and running 
+> Stacks can easily be deleted (will delete a;; the resources as well)
+> CloudFomation allows you to manage all the resources as one unit
+
+Replicate your infrastructure:
+
+> For additonal availablility 
+> you have to replicate it in multipke regions
+> Have to replicate your resources
+> Provision and configure those resources in each region
+> Reuse your CloudFormation resources for other regions
+
+Control and Track: 
+
+> Underlying resources, need upgrade
+> might need to roll back infrastructure to original settings
+>  know what the original settings were
+> Templates are text files
+> When you provision your infrastructure with CloudFormation, the CloudFormation template describes exactly what resources are provisioned and their settings
+
+
+
