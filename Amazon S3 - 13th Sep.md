@@ -10,6 +10,7 @@
 
 *Can be used to store and protect data for data lakes, websites, apps, backup etc* 
 
+
 ## Features
 1. Storage classes
 - store mission-critical production data (frequent access)
@@ -48,6 +49,7 @@
 6. Strong Consistency
 -  read-after-write consistency for PUT and DELETE requests
 
+
 ## Amazon S3 working
 > it is basically a object storage service, data is stored in the form of objects in buckets
 > A bucket is a container for objects
@@ -56,14 +58,15 @@
 2. Upload data as objects (objects have specific key)
 3. Buckets and objects are private (only accessed if permission)
 
-##Amazon S3 data consistency model
+
+## Amazon S3 data consistency model
 Amazon S3 achieves high availability by replicating data across multiple servers within AWS data centers,
 - process writes a new object to Amazon S3 and immediately lists keys within its bucket. The new object appears in the list
 -  process replaces an existing object and immediately tries to read it. Amazon S3 returns the new data
 - A process deletes an existing object and immediately tries to read it, no data is returned if object is deleted
 - A process deletes an existing object and immediately lists keys within its bucket, not in listing
 
-#Accessing S3
+# Accessing S3
 1. AWS Management Console: web-based interface
 2. AWS Command Line: issues commands
 3. AWS SDKs: consists of libraries and sample code (convenient way to create programmatic access)
